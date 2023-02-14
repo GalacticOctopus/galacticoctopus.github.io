@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    color: #41bfea;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main-box {
+    max-width: 90vw;
+    width: 600px;
+    border: 1px solid #26bbd9;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #f4fcff;
+    text-align: center;
+}
+
+.box-center {
+    height: 300px;
+    font-size: 28px;
+    white-space: pre-line;
+}
+
+#box-top {
+    margin-bottom: 200px;
+}
+
+.container {
+    margin-top: 35vh;
+}
+
+@media screen and (min-width: 900px) {
+    .box-center {
+      height: 210px;
+    }
+  }
